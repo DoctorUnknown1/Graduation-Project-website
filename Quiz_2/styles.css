@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#quiz {
+    text-align: left;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#submit-btn {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Add this code to your CSS */
+#progress-bar-container {
+    width: 100%;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+#progress-bar {
+    height: 20px;
+    background-color: #4caf50;
+    width: 0;
+    -webkit-transition: width 0.3s; /* Safari and Chrome */
+    -moz-transition: width 0.3s; /* Firefox */
+    -ms-transition: width 0.3s; /* IE 9 */
+    -o-transition: width 0.3s; /* Opera */
+    transition: width 0.3s;
+}
+
+
