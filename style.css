@@ -1,0 +1,88 @@
+/* style.css */
+
+/* Body styles */
+body {
+    background-size: cover;
+    background-position: bottom 30px; 
+    font-family: "Lucida Console", Monaco, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Form container styles */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input styles */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Error message styles */
+.error {
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #fdfdff;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Additional styles for the content */
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero h1, .hero h2, .hero p {
+    text-align: center;
+    color: white;
+}

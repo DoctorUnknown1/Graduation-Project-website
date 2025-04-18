@@ -1,0 +1,53 @@
+/* login_and_signup.css */
+
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.container {
+    justify-content: center;
+    max-width: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: white; /* Set label text color to white */
+    display: block; /* Ensure labels appear on separate lines */
+    margin-bottom: 5px; /* Adjust margin */
+}
+
+input {
+    font-family: "Lucida Console", Monaco, monospace;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    color: black; /* Set text color to black */
+    background-color: rgb(255, 255, 255); /* Add a background color for better visibility */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    padding: 10px; /* Adjust padding */
+    margin-bottom: 15px; /* Adjust margin */
+}
+
+input[type="submit"] {
+    background: #5cb874;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
