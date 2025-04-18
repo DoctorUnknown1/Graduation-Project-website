@@ -12,4 +12,4 @@ The website provides an overview of the ABS software and offers a direct downloa
 ## 🧰 Technologies Used
 - HTML5
 - CSS3
-- (Optional) JavaScript (for interactivity)
+- JavaScript (for interactivity)
